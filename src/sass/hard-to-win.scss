@@ -1,0 +1,27 @@
+.hard-win{
+   padding: 30rem 0;
+   padding-bottom: 40rem;
+   background: $color-primary;
+   position: relative;
+   z-index: 6;
+   clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+
+   @media only screen and (max-width: $tab-port) {
+		padding-bottom: 25rem;
+	}
+   @media only screen and (max-width: $tab-port) {
+		clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+	}
+   @media only screen and (max-width: $mbl-land) {
+		clip-path: polygon(0 0, 100% 0, 100% 95%, 0% 100%);
+	}
+
+   .ball4{
+      top: 1rem;
+      left: 10%;
+   }
+   .ball5{
+      top: 0;
+      right: -80%;
+   }
+}

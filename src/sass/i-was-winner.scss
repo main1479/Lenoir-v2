@@ -1,0 +1,26 @@
+.was-winner{
+   padding: 15rem 0;
+   position: relative;
+   z-index: 7;
+   @media only screen and (max-width: $tab-port) {
+		padding: 10rem 0;
+	}
+
+   .ball6{
+      top: 0;
+      left: 10%;
+      transform: translateY(-100%);
+   }
+   .ball7{
+      top: -15rem;
+      right: 20%;
+      transform: translateY(-90%);
+   }
+
+   .ball8{
+      bottom: 0;
+      right: 0;
+      transform: translate(50%, 50%);
+      opacity: .5;
+   }
+}

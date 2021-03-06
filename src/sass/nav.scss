@@ -1,0 +1,24 @@
+nav.nav {
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;
+	padding: 1.5rem 0;
+	z-index: 99;
+	background: #000;
+	box-shadow: 0 5px 20px rgba($color-primary, 0.1);
+	height: 9rem;
+	display: flex;
+	align-items: center;
+
+	& .nav-flex {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.logo {
+		max-width: 19rem;
+	}
+
+}

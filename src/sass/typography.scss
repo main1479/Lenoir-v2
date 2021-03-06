@@ -1,0 +1,46 @@
+h1.heading {
+	font-size: 7.2rem;
+	font-weight: 300;
+	text-align: center;
+	line-height: 1.5;
+	strong {
+		font-weight: 700;
+		display: block;
+	}
+
+	@media only screen and (max-width: $tab-port) {
+		text-align: center;
+		font-size: 5rem;
+	}
+	@media only screen and (max-width: $mbl-port) {
+		font-size: 4rem;
+	}
+}
+
+h2.heading {
+	font-size: 3.6rem;
+	font-weight: 600;
+	letter-spacing: 1px;
+	position: relative;
+}
+
+h3.heading {
+	font-size: 3rem;
+	font-weight: 400;
+}
+
+p.p__text {
+	font-size: 20px;
+	font-weight: 300;
+	// letter-spacing: 0.5px;
+	position: relative;
+	z-index: 1;
+}
+
+.fw-600 {
+	font-weight: 600 !important;
+}
+
+.bold {
+	font-weight: 700 !important;
+}

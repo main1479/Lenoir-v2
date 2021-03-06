@@ -1,0 +1,25 @@
+.header {
+	// margin-top: 8rem;
+	padding: 20rem 0;
+	padding-bottom: 25rem;
+	background: $color-primary;
+	// height: 100vh;
+	// min-height: 90rem;
+	clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+	z-index: 2;
+	// position: relative;
+
+	@media only screen and (max-width: $mbl-land) {
+		clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+	}
+
+	@media only screen and (max-width: $tab-land) {
+		height: auto;
+		min-height: auto;
+		text-align: center;
+		padding-bottom: 25rem;
+	}
+
+
+
+}

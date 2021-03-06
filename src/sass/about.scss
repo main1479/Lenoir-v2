@@ -1,0 +1,37 @@
+.about{
+   padding: 15rem 0;
+   // background: $color-bg-light;
+   z-index: 5;
+   margin-top: -26rem;
+   position: relative;
+
+   .video__box{
+      position: relative;
+      z-index: 4;
+      max-width: 82rem;
+      margin: 0 auto; 
+      border-radius: 2rem;
+   }
+
+   .ball1{
+      max-width: 10rem;
+      top: -50%;
+      left: 20%;
+      transform: translateY(50%);
+      opacity: 0.6;
+   }
+
+   .ball2{
+      top: 90%;
+      right: -70%;
+      opacity: 0.6;
+   }
+   .ball3{
+      width: 100%;
+      max-width: 15rem;
+      top: -3rem;
+      left: -8rem;
+      opacity: 0.5;
+   }
+
+}
