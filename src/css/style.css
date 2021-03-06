@@ -399,6 +399,7 @@ nav.nav {
 
 .own-path {
   padding: 40rem 0;
+  padding-top: 0;
   position: relative; }
   @media only screen and (max-width: 48em) {
     .own-path {
